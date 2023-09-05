@@ -19,7 +19,7 @@ global.devs = "923009672389"; //Dont change it From here
 global.github  = process.env.YOUR_GITHUB || 'https://github.com/Dexir/Dexir';
 global.scan  = process.env.QR_URL || 'https://replit.com/@noumanafzal09/BhuttaBrother';
 global.website = 'https://github.com/Dexir/Dexir' ; //wa.me/+923000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/a/I1laEWH.jpeg' ;
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/76b280ab23a35196cf2b7.jpg' ;
 module.exports = {
   sessionName: process.env.SESSION_ID || "BriefedPlanted",      //Put Your Session Id Here
   botname: process.env.BOT_NAME || 'Nouman Afzal',
@@ -52,7 +52,7 @@ module.exports = {
   OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'' ,
   VERSION: process.env.VERSION || 'v.1.0.8',
   LANG: process.env.THEME || 'SUHAIL',
-  menu : process.env.MENU || '', /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
+  menu : process.env.MENU || '3', /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || 'public',
   KOYEB_API : process.env.KOYEB_API || ''
 };
