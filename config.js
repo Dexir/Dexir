@@ -36,7 +36,7 @@ module.exports = {
   antifake :   process.env.FAKE_COUNTRY_CODE ||'212',
   readmessage: process.env.READ_MESSAGE || 'false',
   readcmds : process.env.READ_COMMANDS || 'true',
-  HANDLERS: process.env.PREFIX || ',',
+  HANDLERS: process.env.PREFIX || 'false',
   warncount : process.env.WARN_COUNT || 3,
   disablepm: process.env.DISABLE_PM || "false",
   MsgsInLog:process.env.MSGS_IN_LOG ||'false',
