@@ -10,15 +10,15 @@ global.audio = '' ;
 global.video = '' ;
 global.blockJids = process.env.BLOCK_JID ||'120363023983262391@g.us' ;
 global.allowJids = process.env.ALLOW_JID ||'120363022922797633@g.us' ;
-global.email = 'samsamsun789@gmail.com' ;
+global.email = 'noumanafzal09@gmail.com' ;
 global.location = 'Lahore Pakistan' ;
 global.timezone  = process.env.TIME_ZONE || 'Asia/Karachi'
-global.gurl = 'https://youtube.com/c/SuhailTechInfo' ; // add your username
+global.gurl = 'https://github.com/Dexir/Dexir' ; // add your username
 global.sudo =  process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : '923009672389'; ;
 global.devs = "923184474176"; //Dont change it From here
-global.github  = process.env.YOUR_GITHUB || 'https://github.com/SuhailTechInfo/Suhail-Md';
+global.github  = process.env.YOUR_GITHUB || 'https://github.com/Dexir/Dexir';
 global.scan  = process.env.QR_URL || 'https://replit.com/@SuhailTechInfo/Suhail-Md?v=1';
-global.website = 'https://github.com/SuhailTechInfo/Suhail-Md' ; //wa.me/+923000000000
+global.website = 'https://github.com/Dexir/Dexir' ; //wa.me/+923000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://imgur.com/a/Z6l33LC.jpeg' ;
 module.exports = {
   sessionName: process.env.SESSION_ID || "BriefedPlanted",      //Put Your Session Id Here
@@ -29,7 +29,7 @@ module.exports = {
   errorChat : process.env.ERROR_CHAT|| '', // put 'chat' here to send error in chat ,where it accures
   read_status : process.env.AUTO_READ_STATUS || 'false',
   save_status : process.env.AUTO_SAVE_STATUS || 'false',
-  packname:  process.env.PACK_NAME || "\t   𓅋  \n\nᴋɪss ʍᴇ...💋\n\nᴄʟօsᴇ ყσυɾ ᴇყᴇs...👁️🙈\n\nʍɪss ʍᴇ...♥️\n\n\n   -ᴘʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ᴛᴀӄᴇ 🚮 \n\n--- ρυвʟɪᴄ вσт нᴇʀᴇ ---" ,
+  packname:  process.env.PACK_NAME || "\t  \n\nᴋɪss ʍᴇ...💋\n\nᴄʟօsᴇ ყσυɾ ᴇყᴇs...👁️🙈\n\nʍɪss ʍᴇ...♥️\n\n\n   -ᴘʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ᴛᴀӄᴇ 🚮 \n\n--- ρυвʟɪᴄ вσт нᴇʀᴇ ---" ,
   autoreaction: process.env.AUTO_REACTION || 'false',
   antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokeyuntillYouPutAnWordHere',
   alwaysonline: process.env.WAPRESENCE || '', // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
