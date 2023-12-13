@@ -21,7 +21,7 @@ global.scan  = process.env.QR_URL || 'https://replit.com/@noumanafzal09/BhuttaBr
 global.website = 'https://github.com/Dexir/Dexir' ; //wa.me/+923000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://imgur.com/a/anL7Ins.jpeg' ;
 module.exports = {
-  sessionName: process.env.SESSION_ID || "JeanneMaxine",      //Put Your Session Id Here
+  sessionName: process.env.SESSION_ID || "SESSION_11_28_12_13_BouncerSisterly",      //Put Your Session Id Here
   botname: process.env.BOT_NAME || 'Nouman Afzal',
   botbgm: process.env.BOT_BGM || 'false',
   ownername:  process.env.OWNER_NAME || `Nouman Afzal`,
